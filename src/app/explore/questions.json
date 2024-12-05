@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "image": "/placeholder-image.jpg",
+      "question": "L’océan couvre plus de 70% de la surface de la Terre.",
+      "correct": true,
+      "explanation": "En effet, les océans recouvrent environ 71% de la surface de la Terre."
+    },
+    {
+      "image": "/placeholder-image.jpg",
+      "question": "La Grande Barrière de corail est la plus grande structure vivante sur Terre.",
+      "correct": true,
+      "explanation": "La Grande Barrière de corail, située au large de l'Australie, est visible depuis l'espace."
+    },
+    {
+      "image": "/placeholder-image.jpg",
+      "question": "L’océan Pacifique est le plus petit océan du monde.",
+      "correct": false,
+      "explanation": "Le Pacifique est le plus grand des océans. L'Arctique est le plus petit."
+    },
+    {
+      "image": "/placeholder-image.jpg",
+      "question": "La salinité moyenne de l’eau de mer est d’environ 3,5%.",
+      "correct": true,
+      "explanation": "En moyenne, 35 grammes de sel par litre d'eau de mer, soit environ 3,5%."
+    },
+    {
+      "image": "/placeholder-image.jpg",
+      "question": "Plus de 90% de la vie marine habite dans la zone aphotique.",
+      "correct": false,
+      "explanation": "La plupart de la vie marine se trouve dans la zone photique, près de la surface, où la lumière pénètre."
+    },
+    {
+      "image": "/placeholder-image.jpg",
+      "question": "Le point le plus profond de l’océan se trouve dans la fosse des Mariannes.",
+      "correct": true,
+      "explanation": "Le Challenger Deep, dans la fosse des Mariannes, est le point le plus profond (~11 000 m)."
+    },
+    {
+      "image": "/placeholder-image.jpg",
+      "question": "Les marées sont principalement causées par la rotation de la Terre.",
+      "correct": false,
+      "explanation": "Les marées sont principalement causées par l’attraction gravitationnelle de la Lune et du Soleil."
+    },
+    {
+      "image": "/placeholder-image.jpg",
+      "question": "Les océans contiennent plus de 96% de l’eau sur Terre.",
+      "correct": true,
+      "explanation": "La majeure partie de l'eau se trouve dans les océans, environ 96%."
+    },
+    {
+      "image": "/placeholder-image.jpg",
+      "question": "Les zones côtières ne sont pas affectées par la pollution des océans.",
+      "correct": false,
+      "explanation": "Les zones côtières sont souvent très touchées par la pollution."
+    },
+    {
+      "image": "/placeholder-image.jpg",
+      "question": "Les récifs coralliens abritent plus du quart de la biodiversité marine.",
+      "correct": true,
+      "explanation": "Bien que très restreints en surface, ils hébergent plus de 25% de la vie marine."
+    }
+  ]
+}
