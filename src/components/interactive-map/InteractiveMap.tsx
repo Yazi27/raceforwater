@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import organData from "./organData.json"; // Ajustez le chemin si nécessaire
+import organData from "./organData.json";
 
 type OrganKey = keyof typeof organData;
 
@@ -29,16 +29,14 @@ export default function InteractiveMap() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const handleOrganHover = (organ: OrganKey | null) => {
-    if (!isMobile) {
-      setSelectedOrgan(organ);
-    }
-  };
-
   const handleOrganClick = (organ: OrganKey) => {
     if (isMobile) {
+      // Sur mobile : clic ouvre le modal
       setSelectedOrgan(organ);
       setShowModal(true);
+    } else {
+      // Sur desktop : clic sélectionne l'organe et le garde affiché
+      setSelectedOrgan(organ);
     }
   };
 
@@ -50,14 +48,14 @@ export default function InteractiveMap() {
             Retour Accueil
           </button>
         </Link>
-        <h1 className="text-2xl text-center w-full text-gray-700  font-bold">
+        <h1 className="text-2xl text-center w-full text-gray-700 font-bold">
           Interactive Ocean/Human map
         </h1>
       </header>
 
       <div className="w-full h-full flex items-center justify-center flex-col md:flex-row p-4">
         {isMobile ? (
-          /* Sur mobile : une grille d'organes */
+          // Sur mobile : une grille d'organes centrés
           <div className="grid grid-cols-2 gap-4 w-full max-w-md mx-auto">
             {Object.keys(organData).map((organKey) => {
               const oKey = organKey as OrganKey;
@@ -81,7 +79,7 @@ export default function InteractiveMap() {
             })}
           </div>
         ) : (
-          /* Sur desktop : image du corps humain + organes positionnés */
+          // Sur desktop : image du corps humain + organes, sélection par clic
           <>
             <div className="relative flex-1 max-w-[500px] w-full">
               <div className="w-full">
@@ -105,6 +103,7 @@ export default function InteractiveMap() {
                   height: "50px",
                   transform: "translate(-50%, -50%)",
                 }}
+                onClick={() => handleOrganClick("coeur")}
               >
                 <Image
                   src="/heart.png"
@@ -112,8 +111,6 @@ export default function InteractiveMap() {
                   width={40}
                   height={40}
                   className="object-contain"
-                  onMouseEnter={() => handleOrganHover("coeur")}
-                  onMouseLeave={() => handleOrganHover(null)}
                 />
               </div>
 
@@ -127,6 +124,7 @@ export default function InteractiveMap() {
                   height: "60px",
                   transform: "translate(-50%, -50%)",
                 }}
+                onClick={() => handleOrganClick("foie")}
               >
                 <Image
                   src="/liver.png"
@@ -134,8 +132,6 @@ export default function InteractiveMap() {
                   width={40}
                   height={40}
                   className="object-contain"
-                  onMouseEnter={() => handleOrganHover("foie")}
-                  onMouseLeave={() => handleOrganHover(null)}
                 />
               </div>
 
@@ -149,6 +145,7 @@ export default function InteractiveMap() {
                   height: "59px",
                   transform: "translate(-50%, -50%)",
                 }}
+                onClick={() => handleOrganClick("poumon")}
               >
                 <Image
                   src="/lung.png"
@@ -156,8 +153,6 @@ export default function InteractiveMap() {
                   width={30}
                   height={30}
                   className="object-contain"
-                  onMouseEnter={() => handleOrganHover("poumon")}
-                  onMouseLeave={() => handleOrganHover(null)}
                 />
               </div>
 
@@ -171,6 +166,7 @@ export default function InteractiveMap() {
                   height: "59px",
                   transform: "translate(-50%, -50%)",
                 }}
+                onClick={() => handleOrganClick("brain")}
               >
                 <Image
                   src="/brain.png"
@@ -178,8 +174,6 @@ export default function InteractiveMap() {
                   width={50}
                   height={50}
                   className="object-contain"
-                  onMouseEnter={() => handleOrganHover("brain")}
-                  onMouseLeave={() => handleOrganHover(null)}
                 />
               </div>
             </div>
@@ -207,7 +201,7 @@ export default function InteractiveMap() {
                 </div>
               ) : (
                 <p className="text-gray-500">
-                  Survolez un organe pour voir plus d&apos;informations
+                  Cliquez sur un organe pour voir plus d&apos;informations
                 </p>
               )}
             </div>
