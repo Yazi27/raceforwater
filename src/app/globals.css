@@ -7,7 +7,4 @@ body {
   @apply bg-white text-black;
 }
 
-/* Dark mode styles */
-.dark body {
-  @apply bg-gray-300 text-white;
-}
+
