@@ -1,32 +1,32 @@
 {
   "media": [
     {
-      "title": "Podcast Océan - Épisode 1",
-      "description": "Découvrez les secrets des récifs coralliens.",
-      "image": "/placeholder-image.jpg",
+      "title": "Podcast Florian Sevellec - Épisode 1",
+      "description": "Découvrez ce podcast de Florian Sevellec.",
+      "image": "/podcast/image-preview.png",
       "type": "podcast",
-      "src": "/videos/podcast1.mp4"
+      "src": "/podcast/ClippedPod.mov"
     },
     {
-      "title": "Audio Conférence - Les baleines",
-      "description": "Un aperçu fascinant du chant des baleines.",
-      "image": "/placeholder-image.jpg",
+      "title": "Audio Podcast - Florian",
+      "description": "Podcast audio fascinant de Florian.",
+      "image": "/podcast/audio.png",
       "type": "audio",
-      "src": "/audios/baleines.mp3"
+      "src": "/podcast/PodcastAudio.m4a"
     },
     {
-      "title": "Podcast Océan - Épisode 2",
-      "description": "Plongez dans les abysses.",
-      "image": "/placeholder-image.jpg",
+      "title": "Podcast Florian Sevellec - Épisode 2",
+      "description": "Découvrez le deuxieme épisode de Florian Sevellec.",
+      "image": "/podcast/image-preview1.png",
       "type": "podcast",
-      "src": "/videos/podcast2.mp4"
+      "src": "/podcast/ClippedPod1.mov"
     },
     {
-      "title": "Audio Documentaire - Le plancton",
-      "description": "Rôle crucial du plancton dans l'écosystème.",
-      "image": "/placeholder-image.jpg",
+      "title": "Audio Podcast - Fréderic",
+      "description": "Unique podcast audio de Fréderic.",
+      "image": "/podcast/audio.png",
       "type": "audio",
-      "src": "/audios/plancton.mp3"
+      "src": "/podcast/PodcastAudio1.m4a"
     }
   ]
 }

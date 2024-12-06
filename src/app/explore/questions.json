@@ -5,7 +5,7 @@
       "answer": "Vrai",
       "explanation": "L'océan agit comme un réservoir de chaleur massif, absorbant une grande partie de l'excès de chaleur généré par les activités humaines, ce qui est crucial pour atténuer le réchauffement global.",
       "source": "https://www.calameo.com/read/001838926ab31d0127806",
-      "image": "/quiz/temperatures-ocean.jpeg"
+      "image": "/quiz/temperature.jpeg"
     },
     {
       "question": "La circulation thermohaline est aussi appelée 'petite boucle océanique'.",
@@ -33,7 +33,7 @@
       "answer": "Vrai",
       "explanation": "En absorbant du CO₂, les océans deviennent plus acides, ce qui affecte les écosystèmes et réduit leur efficacité à capturer davantage de carbone.",
       "source": "https://www.calameo.com/read/001838926ab31d0127806",
-      "image": "/quiz/acidification-ocean.jpeg"
+      "image": "/quiz/carbon-absorption.webp"
     },
     {
       "question": "Le programme OVIDE étudie la variabilité des courants dans l’océan Pacifique.",
@@ -47,7 +47,7 @@
       "answer": "Vrai",
       "explanation": "Les phytoplanctons absorbent le CO₂ à la surface des océans, ce qui joue un rôle clé dans la séquestration du carbone.",
       "source": "https://wetransfer.com/downloads/779960506a660026a0087b0208b1fa9f20241204201920/556467?t_exp=1733602760&t_lsid=627bfe53-e704-4665-b2fc-04267cfa8970&t_network=link&t_rid=ZW1haWx8Njc1MGEyMWZiNjM1NTFjNmY2MzljMzZm&t_s=download_link&t_ts=1733343561",
-      "image": "/quiz/phytoplanctons.jpg"
+      "image": "/quiz/phyto.png"
     },
     {
       "question": "La circulation méridienne de retournement atlantique (AMOC) est essentielle à la régulation du climat.",

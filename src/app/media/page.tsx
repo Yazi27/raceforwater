@@ -79,7 +79,8 @@ export default function Page() {
                     <Image
                       src={item.image}
                       alt={item.title}
-                      fill
+                      width={50}
+                      height={50}
                       className="object-cover rounded-md"
                     />
                   </div>

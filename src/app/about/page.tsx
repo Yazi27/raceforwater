@@ -44,7 +44,7 @@ export default function Page() {
             >
               <div className="w-full h-48 relative mb-4">
                 <Image
-                  src="/placeholder-image.jpg"
+                  src="/yazi.jpeg"
                   alt="Contributeur 1"
                   fill
                   className="object-cover rounded-md"
@@ -85,7 +85,7 @@ export default function Page() {
             >
               <div className="w-full h-48 relative mb-4">
                 <Image
-                  src="/placeholder-image.jpg"
+                  src="/user.png"
                   alt="Contributeur 2"
                   fill
                   className="object-cover rounded-md"
@@ -126,7 +126,7 @@ export default function Page() {
             >
               <div className="w-full h-48 relative mb-4">
                 <Image
-                  src="/placeholder-image.jpg"
+                  src="/user.png"
                   alt="Contributeur 3"
                   fill
                   className="object-cover rounded-md"
