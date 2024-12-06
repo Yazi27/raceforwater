@@ -8,9 +8,9 @@ import { ThemeWrapper } from "@/components/ThemeWrapper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EcoProcess",
+  title: "RaceForWater",
   description:
-    "EcoProcess is packaging company that provides sustainable packaging solutions to the food industry.",
+    "Nuit de l'info",
   icons: {
     icon: "/logo.ico",
   },

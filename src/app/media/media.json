@@ -1,0 +1,32 @@
+{
+  "media": [
+    {
+      "title": "Podcast Océan - Épisode 1",
+      "description": "Découvrez les secrets des récifs coralliens.",
+      "image": "/placeholder-image.jpg",
+      "type": "podcast",
+      "src": "/videos/podcast1.mp4"
+    },
+    {
+      "title": "Audio Conférence - Les baleines",
+      "description": "Un aperçu fascinant du chant des baleines.",
+      "image": "/placeholder-image.jpg",
+      "type": "audio",
+      "src": "/audios/baleines.mp3"
+    },
+    {
+      "title": "Podcast Océan - Épisode 2",
+      "description": "Plongez dans les abysses.",
+      "image": "/placeholder-image.jpg",
+      "type": "podcast",
+      "src": "/videos/podcast2.mp4"
+    },
+    {
+      "title": "Audio Documentaire - Le plancton",
+      "description": "Rôle crucial du plancton dans l'écosystème.",
+      "image": "/placeholder-image.jpg",
+      "type": "audio",
+      "src": "/audios/plancton.mp3"
+    }
+  ]
+}

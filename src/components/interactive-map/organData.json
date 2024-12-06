@@ -1,0 +1,30 @@
+{
+  "coeur": {
+    "title": "Le Cœur",
+    "description": "Le cœur pompe le sang, assurant la circulation des nutriments et de l'oxygène.",
+    "oceanAnalogy": "De la même manière que le cœur assure la circulation interne, l'océan régule le climat en redistribuant la chaleur sur Terre.",
+    "oceanLink": "https://example.com/ocean-heart",
+    "image": "/heart.png"
+  },
+  "foie": {
+    "title": "Le Foie",
+    "description": "Le foie détoxifie le sang, synthétise des protéines et produit la bile.",
+    "oceanAnalogy": "Comme le foie filtre et régule la chimie interne du corps, l'océan filtre le carbone et abrite des organismes qui aident à purifier l'eau.",
+    "oceanLink": "https://example.com/ocean-liver",
+    "image": "/liver.png"
+  },
+  "poumon": {
+    "title": "Les Poumons",
+    "description": "Les poumons oxygènent le sang et éliminent le CO₂.",
+    "oceanAnalogy": "Les poumons fournissent l'oxygène nécessaire à la vie, tout comme l'océan produit une grande partie de l'oxygène de la planète via le phytoplancton.",
+    "oceanLink": "https://example.com/ocean-lungs",
+    "image": "/lung.png"
+  },
+  "brain": {
+    "title": "Le Cerveau",
+    "description": "Le cerveau est le centre de contrôle du corps.",
+    "oceanAnalogy": "Comme le cerveau coordonne le corps, l'océan influence les systèmes climatiques et écologiques à l'échelle mondiale.",
+    "oceanLink": "https://example.com/ocean-brain",
+    "image": "/brain.png"
+  }
+}

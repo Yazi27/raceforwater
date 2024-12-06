@@ -1,64 +1,137 @@
 {
-  "questions": [
+"quiz": [
     {
-      "image": "/placeholder-image.jpg",
-      "question": "L’océan couvre plus de 70% de la surface de la Terre.",
-      "correct": true,
-      "explanation": "En effet, les océans recouvrent environ 71% de la surface de la Terre."
+      "question": "L’océan absorbe plus de 90 % de l’excès de chaleur lié aux activités humaines.",
+      "answer": "Vrai",
+      "explanation": "L'océan agit comme un réservoir de chaleur massif, absorbant une grande partie de l'excès de chaleur généré par les activités humaines, ce qui est crucial pour atténuer le réchauffement global.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/temperatures-ocean.jpeg"
     },
     {
-      "image": "/placeholder-image.jpg",
-      "question": "La Grande Barrière de corail est la plus grande structure vivante sur Terre.",
-      "correct": true,
-      "explanation": "La Grande Barrière de corail, située au large de l'Australie, est visible depuis l'espace."
+      "question": "La circulation thermohaline est aussi appelée 'petite boucle océanique'.",
+      "answer": "Faux",
+      "explanation": "Elle est appelée 'grande boucle océanique' en raison de son rôle global dans le transport de chaleur et de nutriments à travers les océans.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/question-thermohaline-gulf.png"
     },
     {
-      "image": "/placeholder-image.jpg",
-      "question": "L’océan Pacifique est le plus petit océan du monde.",
-      "correct": false,
-      "explanation": "Le Pacifique est le plus grand des océans. L'Arctique est le plus petit."
+      "question": "Le Gulf Stream pourrait ralentir ou s’arrêter à cause du réchauffement climatique.",
+      "answer": "Vrai",
+      "explanation": "Le réchauffement peut perturber la circulation thermohaline, menaçant des courants comme le Gulf Stream, essentiel pour la régulation climatique.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/question-thermohaline-gulf.png"
     },
     {
-      "image": "/placeholder-image.jpg",
-      "question": "La salinité moyenne de l’eau de mer est d’environ 3,5%.",
-      "correct": true,
-      "explanation": "En moyenne, 35 grammes de sel par litre d'eau de mer, soit environ 3,5%."
+      "question": "L'océan absorbe environ 50 % du dioxyde de carbone émis par les activités humaines.",
+      "answer": "Faux",
+      "explanation": "Il absorbe environ 30 %, bien que cette capacité soit menacée par l'acidification et le réchauffement.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/absorption.jpg"
     },
     {
-      "image": "/placeholder-image.jpg",
-      "question": "Plus de 90% de la vie marine habite dans la zone aphotique.",
-      "correct": false,
-      "explanation": "La plupart de la vie marine se trouve dans la zone photique, près de la surface, où la lumière pénètre."
+      "question": "L’acidification des océans menace leur capacité à absorber le carbone.",
+      "answer": "Vrai",
+      "explanation": "En absorbant du CO₂, les océans deviennent plus acides, ce qui affecte les écosystèmes et réduit leur efficacité à capturer davantage de carbone.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/acidification-ocean.jpeg"
     },
     {
-      "image": "/placeholder-image.jpg",
-      "question": "Le point le plus profond de l’océan se trouve dans la fosse des Mariannes.",
-      "correct": true,
-      "explanation": "Le Challenger Deep, dans la fosse des Mariannes, est le point le plus profond (~11 000 m)."
+      "question": "Le programme OVIDE étudie la variabilité des courants dans l’océan Pacifique.",
+      "answer": "Faux",
+      "explanation": "Il se concentre sur l'Atlantique Nord et l'impact des courants dans cette région sur le climat.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/OVIDE.png"
     },
     {
-      "image": "/placeholder-image.jpg",
-      "question": "Les marées sont principalement causées par la rotation de la Terre.",
-      "correct": false,
-      "explanation": "Les marées sont principalement causées par l’attraction gravitationnelle de la Lune et du Soleil."
+      "question": "La pompe biologique marine repose principalement sur l'activité des phytoplanctons.",
+      "answer": "Vrai",
+      "explanation": "Les phytoplanctons absorbent le CO₂ à la surface des océans, ce qui joue un rôle clé dans la séquestration du carbone.",
+      "source": "https://wetransfer.com/downloads/779960506a660026a0087b0208b1fa9f20241204201920/556467?t_exp=1733602760&t_lsid=627bfe53-e704-4665-b2fc-04267cfa8970&t_network=link&t_rid=ZW1haWx8Njc1MGEyMWZiNjM1NTFjNmY2MzljMzZm&t_s=download_link&t_ts=1733343561",
+      "image": "/quiz/phytoplanctons.jpg"
     },
     {
-      "image": "/placeholder-image.jpg",
-      "question": "Les océans contiennent plus de 96% de l’eau sur Terre.",
-      "correct": true,
-      "explanation": "La majeure partie de l'eau se trouve dans les océans, environ 96%."
+      "question": "La circulation méridienne de retournement atlantique (AMOC) est essentielle à la régulation du climat.",
+      "answer": "Vrai",
+      "explanation": "L'AMOC distribue la chaleur et les nutriments, influençant fortement le climat global.",
+      "source": "https://wetransfer.com/downloads/779960506a660026a0087b0208b1fa9f20241204201920/556467?t_exp=1733602760&t_lsid=627bfe53-e704-4665-b2fc-04267cfa8970&t_network=link&t_rid=ZW1haWx8Njc1MGEyMWZiNjM1NTFjNmY2MzljMzZm&t_s=download_link&t_ts=1733343561",
+      "image": "/quiz/L'AMOC.jpg"
     },
     {
-      "image": "/placeholder-image.jpg",
-      "question": "Les zones côtières ne sont pas affectées par la pollution des océans.",
-      "correct": false,
-      "explanation": "Les zones côtières sont souvent très touchées par la pollution."
+      "question": "Le réchauffement des océans modifie les écosystèmes marins sans impacter les courants océaniques.",
+      "answer": "Faux",
+      "explanation": "Les courants océaniques sont directement affectés par le réchauffement, ce qui peut perturber leurs flux et, par conséquent, les écosystèmes marins.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/ecomarin.png"
     },
     {
-      "image": "/placeholder-image.jpg",
-      "question": "Les récifs coralliens abritent plus du quart de la biodiversité marine.",
-      "correct": true,
-      "explanation": "Bien que très restreints en surface, ils hébergent plus de 25% de la vie marine."
+      "question": "Les océans couvrent 71 % de la surface de la Terre.",
+      "answer": "Vrai",
+      "explanation": "Les océans représentent une majorité de la surface de la Terre, jouant un rôle clé dans la régulation climatique et la biodiversité.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/terre.jpg"
+    },
+    {
+      "question": "La fonte des glaciers n’a aucun impact sur l’élévation du niveau de la mer.",
+      "answer": "Faux",
+      "explanation": "La fonte des glaciers contribue à la montée des océans en augmentant directement le volume d'eau.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/glacier.png"
+    },
+    {
+      "question": "L’augmentation de la température provoque une dilatation thermique de l’eau, contribuant à la montée des océans.",
+      "answer": "Vrai",
+      "explanation": "Lorsque l'eau chauffe, elle se dilate, ce qui est un des facteurs principaux de l'élévation du niveau de la mer.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/rechauffementclimatique.jpg"
+    },
+    {
+      "question": "L’océan contient 10 fois plus de carbone que l’atmosphère.",
+      "answer": "Faux",
+      "explanation": "L’océan contient environ 50 fois plus de carbone que l’atmosphère, ce qui illustre son rôle comme réservoir majeur de carbone.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/stock.jpeg"
+    },
+    {
+      "question": "Les courants océaniques sont influencés par les flux d’eau douce, de chaleur et le stress éolien.",
+      "answer": "Vrai",
+      "explanation": "Ces flux externes modifient la dynamique des courants océaniques, influençant ainsi le climat.",
+      "source": "https://wetransfer.com/downloads/779960506a660026a0087b0208b1fa9f20241204201920/556467?t_exp=1733602760&t_lsid=627bfe53-e704-4665-b2fc-04267cfa8970&t_network=link&t_rid=ZW1haWx8Njc1MGEyMWZiNjM1NTFjNmY2MzljMzZm&t_s=download_link&t_ts=1733343561",
+      "image": "/quiz/ocean.jpg"
+    },
+    {
+      "question": "Le réchauffement climatique n’a pas d’effet sur la variabilité des courants océaniques.",
+      "answer": "Faux",
+      "explanation": "Le réchauffement climatique modifie la température et la salinité, entraînant une variabilité accrue des courants.",
+      "source": "https://wetransfer.com/downloads/779960506a660026a0087b0208b1fa9f20241204201920/556467?t_exp=1733602760&t_lsid=627bfe53-e704-4665-b2fc-04267cfa8970&t_network=link&t_rid=ZW1haWx8Njc1MGEyMWZiNjM1NTFjNmY2MzljMzZm&t_s=download_link&t_ts=1733343561",
+      "image": "/quiz/L'AMOC.jpg"
+    },
+    {
+      "question": "La pompe biologique marine est un processus entièrement indépendant des écosystèmes marins.",
+      "answer": "Faux",
+      "explanation": "La pompe biologique marine dépend fortement des écosystèmes marins, en particulier des phytoplanctons et zooplanctons.",
+      "source": "https://wetransfer.com/downloads/779960506a660026a0087b0208b1fa9f20241204201920/556467?t_exp=1733602760&t_lsid=627bfe53-e704-4665-b2fc-04267cfa8970&t_network=link&t_rid=ZW1haWx8Njc1MGEyMWZiNjM1NTFjNmY2MzljMzZm&t_s=download_link&t_ts=1733343561",
+      "image": "/quiz/pompebiologique.jpg"
+    },
+    {
+      "question": "Des systèmes d’observation globaux sont nécessaires pour surveiller les changements océaniques.",
+      "answer": "Vrai",
+      "explanation": "Les systèmes d'observation permettent de collecter des données cruciales pour comprendre les impacts climatiques sur les océans.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/observation.png"
+    },
+    {
+      "question": "Le réchauffement des océans réduit la solubilité des gaz.",
+      "answer": "Vrai",
+      "explanation": "Avec l'augmentation de la température, les océans retiennent moins de gaz comme l'oxygène et le CO₂, affectant les écosystèmes marins.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/solubilite.png"
+    },
+    {
+      "question": "La protection des écosystèmes marins est inutile pour limiter les impacts du changement climatique.",
+      "answer": "Faux",
+      "explanation": "La protection des écosystèmes marins est essentielle pour préserver les services qu'ils rendent, comme la séquestration du carbone.",
+      "source": "https://www.calameo.com/read/001838926ab31d0127806",
+      "image": "/quiz/coraux.jpeg"
     }
   ]
 }
